@@ -1,0 +1,34 @@
+#form_input {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 55px;
+    width: 100%;
+    font-size: 1.4em
+}
+
+.input_submit {
+    width: 50% !important;
+    background-color: red;
+    cursor: pointer;
+}
+
+#form_input input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 2%;
+    border-radius: 7px;
+    border: 2px solid silver;
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+#form_input input:focus {
+    border-color: #333;
+}
+
+.input_submit:active {
+    background-color: rgb(139, 63, 63);
+    color: white;
+    transform:scale(1.1);
+}
