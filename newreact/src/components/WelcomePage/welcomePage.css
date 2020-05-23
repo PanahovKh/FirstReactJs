@@ -1,0 +1,26 @@
+.welcome_page-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+button {
+    background-color: teal;
+    height: 30px;
+    width: 250px;
+    border:2px solid orange;
+    color: white;
+}
+
+button :active {
+    background-color: rgb(8, 161, 161) ;
+    color: white;
+    transform:scale(1.1);
+}

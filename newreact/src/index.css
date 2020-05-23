@@ -5,29 +5,32 @@
   outline: none;
 }
 #root {
+  height:650px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-size: contain; 
   background-image: url(https://3.bp.blogspot.com/-1-EI-hYRRqc/Xd2zFunH65I/AAAAAAAARyU/9lC8yiPTk04zG8t5lIbIc3A-tIwqKxBvwCLcBGAsYHQ/w914-h514-p-k-no-nu/sunrise-illustration-digital-art-uhdpaper.com-4K-4.1963-wp.thumbnail.jpg)
 }
 
 #contacts {
-  width: 50%; 
-  background-image: url(https://i.pinimg.com/originals/d3/55/53/d35553637a5994d319feb408b7f85f54.jpg);
+  width: 30%; 
+  background-color:rgb(15, 92, 128);
+  border: 2px solid orange;
   background-size: cover;
 }
 
 #contacts h5 {
   font-family: 'Roboto Slab', serif;
-  font-size: 3em;
-  color:#383131;
+  font-size: 2em;
+  color:white;
   text-align: center;
+  text-decoration: underline;
 }
 
 #form_input label {
-color: #130808;
+color: white;
 cursor: pointer;
-font-size: 1.4em;
+font-size: 1.1em;
 font-family: 'Roboto Slab', serif;
 }
-
-
