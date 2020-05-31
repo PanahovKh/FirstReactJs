@@ -1,6 +1,6 @@
 import React from 'react'
 import Input from '../input/Input'
-//import {sendPutRequest} from '../../REST'
+import {sendPostRequest} from '../../REST'
 
 class Model extends React.Component {
     constructor (props) {
@@ -22,16 +22,7 @@ class Model extends React.Component {
     }
     checkFormHandler = (e) => {
         e.preventDefault();
-        console.log( this.state.inputValues );  
-        const person = this.state;
-        let object = {person}
-        let formData = new FormData(document.forms.person);
-    
-        formData.forEach(function(value, key){
-            object[key] = value;
-        });
-        console.log(object);
-        //sendPutRequest(object);
+        sendPostRequest(this.state.inputValues);
         return false;
     }
 
@@ -84,7 +75,7 @@ class Model extends React.Component {
             className={'input_submit'}
         />
 
-<Input 
+        <Input 
             type={'reset'}
             className={'input_submit reset'}
         />

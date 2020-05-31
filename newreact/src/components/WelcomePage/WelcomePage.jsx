@@ -3,6 +3,7 @@ import Model from '../Model/Model'
 import './welcomePage.css'
 
 
+
 class WelcomePage extends React.Component{
     constructor(props) {
         super(props)
