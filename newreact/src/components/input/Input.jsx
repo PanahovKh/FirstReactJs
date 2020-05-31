@@ -18,15 +18,19 @@ class Input extends React.Component {
     render() {
         const {
         type,
+        name,
         className,
         placeholder,
+        onChange,
     } = this.props
 
         return (
             <input 
                 type={type}
+                name={name}
                 className={className}
                 placeholder={placeholder}
+                onChange={onChange}
             />
         );
     }
